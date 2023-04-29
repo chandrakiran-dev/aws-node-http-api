@@ -1,0 +1,16 @@
+org: chandrakiran029
+app: aws-node-http-api
+service: aws-node-http-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
