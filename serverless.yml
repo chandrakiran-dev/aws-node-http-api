@@ -1,7 +1,7 @@
 org: chandrakiran029
 app: aws-node-http-api
 service: aws-node-http-api
-frameworkVersion: '3'
+frameworkVersion: '4'
 
 provider:
   name: aws
